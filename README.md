@@ -41,6 +41,3 @@ This project is a basic microservice architecture built using **Spring Boot**, *
 - Maven
 - (Optional) Postman or any API client
 
-
-## Postman API 
-
