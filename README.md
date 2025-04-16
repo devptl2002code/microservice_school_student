@@ -43,4 +43,4 @@ This project is a basic microservice architecture built using **Spring Boot**, *
 
 
 ## Postman API 
-- https://api.postman.com/collections/32596270-dbddf429-0fd4-448e-b32c-2998f452c320?access_key=PMAT-01JS083HS31BN8CYMF0HM45NGP
+
