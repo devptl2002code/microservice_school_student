@@ -14,6 +14,6 @@ public class School {
 
     private int id;
     private String schoolName;
-    private String location;
+    private String locationName;
     private String principalName;
 }
