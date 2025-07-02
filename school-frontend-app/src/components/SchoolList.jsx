@@ -15,7 +15,7 @@ export default function SchoolList() {
       <h2>Schools</h2>
       <ul>
         {schools.map(school => (
-          <li key={school.id}>{school.name} - {school.address}</li>
+          <li key={school.id}>{school.schoolName} - {school.locationName}</li>
         ))}
       </ul>
     </div>

@@ -1,29 +1,17 @@
 package com.devptl.school_service.service;
 
 
-import com.devptl.school_service.entity.School;
-import com.devptl.school_service.repository.SchoolRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import com.devptl.school_service.dto.schoolDTO.SchoolRequest;
+import com.devptl.school_service.dto.schoolDTO.SchoolResponse;
 
 import java.util.List;
 
-@Service
-public class SchoolService {
+public interface SchoolService {
 
-    @Autowired
-    SchoolRepository schoolRepository;
 
-    public School addSchool(School school){
-        return schoolRepository.save(school);
-    }
+    SchoolResponse addSchool(SchoolRequest request);
 
-    public List<School> fetchSchools(){
-        return schoolRepository.findAll();
-    }
+    List<SchoolResponse> fetchSchools();
 
-    public School findById(int id){
-        return schoolRepository.findById(id).orElse(null);
-    }
-
+    void deleteById (Long schoolId);
 }

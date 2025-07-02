@@ -19,4 +19,10 @@ public class Student {
     private int age;
     private String gender;
     private Integer schoolId;
+
+    private int rollNumber;
+    private String standard;      // e.g., "10th", "5th", etc.
+    private String section;       // e.g., "A", "B", etc.
+
+    private String profileImageUrl;  // For AWS S3 integration
 }
